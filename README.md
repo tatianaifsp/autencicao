@@ -5,7 +5,7 @@ Configuração do back-end com Node.js, Express, MongoDB e JWT.
 Configuração do front-end com Vue CLI e Axios.
 Configuração do Insomnia para testar as rotas de API.
 
-# ________________________Parte 1: Back-end com Node.js, Express, MongoDB e JWT
+###Parte 1: Back-end com Node.js, Express, MongoDB e JWT
 
 # 1. Configuração Inicial do Projeto Back-end
 Crie uma pasta para o projeto do back-end e instale as dependências:
