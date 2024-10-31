@@ -7,7 +7,7 @@ Configuração do Insomnia para testar as rotas de API.
 
 ###Parte 1: Back-end com Node.js, Express, MongoDB e JWT
 
-# 1. Configuração Inicial do Projeto Back-end
+1. Configuração Inicial do Projeto Back-end
 Crie uma pasta para o projeto do back-end e instale as dependências:
 
 Copiar código
@@ -34,14 +34,14 @@ backend-auth/
 └── package.json
 Configuração do .env
 
-# Crie o arquivo .env e adicione as variáveis de ambiente:
+Crie o arquivo .env e adicione as variáveis de ambiente:
 env
-      Copiar código
+Copiar código
 PORT=5000
 MONGO_URI=sua_uri_mongodb
 JWT_SECRET=sua_chave_secreta
 
-# 2. Conexão com MongoDB (config/db.js)
+2. Conexão com MongoDB (config/db.js)
 Copiar código
 
 const mongoose = require("mongoose");
@@ -60,7 +60,7 @@ const connectDB = async () => {
 
 module.exports = connectDB;
 
-# 3. Modelo de Usuário (models/User.js)
+3. Modelo de Usuário (models/User.js)
 Copiar código
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
